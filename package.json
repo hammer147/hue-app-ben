@@ -1,0 +1,18 @@
+{
+  "name": "hue-app-ben",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "got": "^12.4.1",
+    "jsdom": "^20.0.0",
+    "node-fetch": "^3.2.10"
+  }
+}
