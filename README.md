@@ -40,8 +40,8 @@
 
 ## Change the state of the lights
 
-At this point, we are ready to change the state of the lights.<br>
-Let's have a look at the code in **change-state.mjs**. We send a put request to one of our lights (the id of the light is in the url).<br>
+At this point, we are ready to change the state of the lights.
+Let's have a look at the code in **change-state.mjs**. We send a put request to one of our lights (the id of the light is in the url).
 The state we are sending is defined in the body of the put request, e.g.
 
 ```js
@@ -54,8 +54,8 @@ const body = {
 
 ### on
 
-The on field speaks for itself, it can be true or false.<br>
-Note however, that it is *only* needed if you actually want to turn the light on or off (i.e. *change* the on/off state).<br>
+The on field speaks for itself, it can be true or false.
+Note however, that it is *only* needed if you actually want to turn the light on or off (i.e. *change* the on/off state).
 If a light is *already on* and you just want to change the color, it is recommended to omit the on field as unnecessary info slows down the bridge.
 
 ### dimming
@@ -74,4 +74,4 @@ node change-state.mjs
 
 ## Run scripts as scheduled tasks (Windows 10)
 
-It can be very useful to run scripts on a schedule. On Windows, this is very easy. Just open Task Scheduler, create a new task and fill in the options. [here is an example](task-scheduler-example.png)
+It can be very useful to run scripts on a schedule. On Windows, this is very easy. Just open Task Scheduler, create a new task and fill in the options, [here is an example](task-scheduler-example.png).
